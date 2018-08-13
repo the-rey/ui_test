@@ -1,0 +1,259 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5233806553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Add wonderful quotes",
+        "description": "",
+        "id": "for-qa-training;add-wonderful-quotes",
+        "after": [
+          {
+            "result": {
+              "duration": 23702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8041433098,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open wonderful quotes page",
+            "match": {
+              "location": "WonderfulQuoteSteps.userOpenWonderfulQuotesPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 455015113,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input \"Quote\" on quote field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Quote",
+                  "offset": 12
+                }
+              ],
+              "location": "WonderfulQuoteSteps.userInputOnQuoteField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 431200753,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input \"Argo\" on author field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Argo",
+                  "offset": 12
+                }
+              ],
+              "location": "WonderfulQuoteSteps.userInputOnAuthorField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 403971163,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input \"aqua\" on background field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aqua",
+                  "offset": 12
+                }
+              ],
+              "location": "WonderfulQuoteSteps.userInputOnBackgroundField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 385366798,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on add quote",
+            "match": {
+              "location": "WonderfulQuoteSteps.userClickOnAddQuote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 747598564,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should see \"Quote\" and author \"Argo\" on panel and background color is \"aqua\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Quote",
+                  "offset": 17
+                },
+                {
+                  "val": "Argo",
+                  "offset": 36
+                },
+                {
+                  "val": "aqua",
+                  "offset": 76
+                }
+              ],
+              "location": "WonderfulQuoteSteps.userShouldSeeAndAuthorOnPanelAndBackgroundColorIs(String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 362430130,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click table view",
+            "match": {
+              "location": "WonderfulQuoteSteps.userClickTableView()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331076811,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user hover blue button",
+            "match": {
+              "location": "WonderfulQuoteSteps.userHoverBlueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320156169,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "table is visible",
+            "match": {
+              "location": "WonderfulQuoteSteps.tableIsVisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 314957477,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user hover red button",
+            "match": {
+              "location": "WonderfulQuoteSteps.userHoverRedButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2303635729,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "table is invisible",
+            "match": {
+              "location": "WonderfulQuoteSteps.tableIsInvisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 376790800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click green button",
+            "match": {
+              "location": "WonderfulQuoteSteps.userClickGreenButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9745844274,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "table is visible after \"10\" seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 24
+                }
+              ],
+              "location": "WonderfulQuoteSteps.tableIsVisibleAfterSeconds(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TrainingFeature"
+          },
+          {
+            "name": "@positive"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "For QA Training",
+    "description": "",
+    "id": "for-qa-training",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Training.feature",
+    "tags": [
+      {
+        "name": "@TrainingFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

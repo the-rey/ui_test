@@ -1,0 +1,7 @@
+com\gdn\qa\module\ui\training\steps\XCartSteps.class
+com\gdn\qa\module\ui\training\steps\DefinitionSteps.class
+com\gdn\qa\module\ui\training\steps\MemberSteps.class
+com\gdn\qa\module\ui\training\steps\BadakSteps.class
+com\gdn\qa\module\ui\training\CucumberRunner.class
+com\gdn\qa\module\ui\training\steps\WonderfulQuoteSteps.class
+com\gdn\qa\module\ui\training\hooks\CucumberHooks.class
