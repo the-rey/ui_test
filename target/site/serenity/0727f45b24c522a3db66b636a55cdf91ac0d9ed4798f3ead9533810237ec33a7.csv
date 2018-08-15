@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"For QA Training","Add wonderful quotes","FAILURE","2018-08-13T14:01:47.075+07:00[Asia/Bangkok]","0.0","18.83"
+"basic trading function check","User Go To Bitcoin-IDR Trading","ERROR","2018-08-15T14:19:11.325+07:00[Asia/Bangkok]","0.0","34.81"
+"to test basic functions","User Login Success","SUCCESS","2018-08-15T14:19:46.141+07:00[Asia/Bangkok]","0.0","21.07"
+"to test basic functions","User Login Forget Password","SUCCESS","2018-08-15T14:20:28.897+07:00[Asia/Bangkok]","0.0","24.57"
+"to test basic functions","User Sign Up with correct credentials","SUCCESS","2018-08-15T14:20:53.473+07:00[Asia/Bangkok]","0.0","14.0"
+"to test basic functions","User Sign In from Sign up page","SUCCESS","2018-08-15T14:21:07.473+07:00[Asia/Bangkok]","0.0","31.09"

@@ -1,7 +1,5 @@
-C:\Users\reynaldo.nathanael\Documents\ui-training\src\test\java\com\gdn\qa\module\ui\training\steps\WonderfulQuoteSteps.java
-C:\Users\reynaldo.nathanael\Documents\ui-training\src\test\java\com\gdn\qa\module\ui\training\CucumberRunner.java
-C:\Users\reynaldo.nathanael\Documents\ui-training\src\test\java\com\gdn\qa\module\ui\training\steps\MemberSteps.java
-C:\Users\reynaldo.nathanael\Documents\ui-training\src\test\java\com\gdn\qa\module\ui\training\hooks\CucumberHooks.java
-C:\Users\reynaldo.nathanael\Documents\ui-training\src\test\java\com\gdn\qa\module\ui\training\steps\DefinitionSteps.java
-C:\Users\reynaldo.nathanael\Documents\ui-training\src\test\java\com\gdn\qa\module\ui\training\steps\XCartSteps.java
-C:\Users\reynaldo.nathanael\Documents\ui-training\src\test\java\com\gdn\qa\module\ui\training\steps\BadakSteps.java
+C:\Users\reynaldo.nathanael\Documents\GitHub\the-rey\ui_test_kitadel\src\test\java\com\gdn\qa\module\ui\training\hooks\CucumberHooks.java
+C:\Users\reynaldo.nathanael\Documents\GitHub\the-rey\ui_test_kitadel\src\test\java\com\gdn\qa\module\ui\training\steps\KitadelTradingSteps.java
+C:\Users\reynaldo.nathanael\Documents\GitHub\the-rey\ui_test_kitadel\src\test\java\com\gdn\qa\module\ui\training\CucumberRunner.java
+C:\Users\reynaldo.nathanael\Documents\GitHub\the-rey\ui_test_kitadel\src\test\java\com\gdn\qa\module\ui\training\steps\WonderfulQuoteSteps.java
+C:\Users\reynaldo.nathanael\Documents\GitHub\the-rey\ui_test_kitadel\src\test\java\com\gdn\qa\module\ui\training\steps\KitadelUserBasicSteps.java
