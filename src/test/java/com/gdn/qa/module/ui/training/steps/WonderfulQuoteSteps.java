@@ -58,7 +58,7 @@ public class WonderfulQuoteSteps extends ScenarioSteps {
     }
 
     @Then("^user should see \"([^\"]*)\" and author \"([^\"]*)\" on panel and background color is \"([^\"]*)\"$")
-    public void userShouldSeeAndAuthorOnPanelAndBackgroundColorIs(String arg0, String arg1, String arg2) throws Throwable {
+    public void userShouldSeeAndAuthorOnPanelAndBackgroundColorIs(String arg0, String arg1, String arg2) {
         // Write code here that turns the phrase above into concrete actions
         assertThat("Penambahan Quote Gagal, Quote Tidak ada",
                 wonderfulQuotePage.getListOfQuotes(),
@@ -119,4 +119,5 @@ public class WonderfulQuoteSteps extends ScenarioSteps {
                 wonderfulQuotePage.tableIsVisible(arg0),
                 equalTo(Boolean.TRUE));
     }
+
 }

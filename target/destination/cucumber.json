@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5233806553,
+              "duration": 3418914116,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 5,
-        "name": "Add wonderful quotes",
+        "name": "User Go To Bitcoin-IDR Trading",
         "description": "",
-        "id": "for-qa-training;add-wonderful-quotes",
+        "id": "basic-trading-function-check;user-go-to-bitcoin-idr-trading",
         "after": [
           {
             "result": {
-              "duration": 23702,
+              "duration": 21171,
               "status": "passed"
             },
             "match": {
@@ -34,220 +34,777 @@
         "steps": [
           {
             "result": {
-              "duration": 8041433098,
+              "duration": 12171623373,
               "status": "passed"
             },
             "line": 6,
-            "name": "user open wonderful quotes page",
+            "name": "user is on landing page",
             "match": {
-              "location": "WonderfulQuoteSteps.userOpenWonderfulQuotesPage()"
+              "location": "KitadelUserBasicSteps.userIsOnLandingPage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 455015113,
+              "duration": 639093685,
               "status": "passed"
             },
             "line": 7,
-            "name": "user input \"Quote\" on quote field",
+            "name": "user clicked on sign in button",
             "match": {
-              "arguments": [
-                {
-                  "val": "Quote",
-                  "offset": 12
-                }
-              ],
-              "location": "WonderfulQuoteSteps.userInputOnQuoteField(String)"
+              "location": "KitadelUserBasicSteps.userClickedOnSignInButton()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 431200753,
+              "duration": 967412252,
               "status": "passed"
             },
             "line": 8,
-            "name": "user input \"Argo\" on author field",
+            "name": "user input \"reynaldocadangan+2@gmail.com\" to email box",
             "match": {
               "arguments": [
                 {
-                  "val": "Argo",
+                  "val": "reynaldocadangan+2@gmail.com",
                   "offset": 12
                 }
               ],
-              "location": "WonderfulQuoteSteps.userInputOnAuthorField(String)"
+              "location": "KitadelUserBasicSteps.userInputToEmailBox(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 403971163,
+              "duration": 487188929,
               "status": "passed"
             },
             "line": 9,
-            "name": "user input \"aqua\" on background field",
+            "name": "user input \"Cadanganpass123\" to password box",
             "match": {
               "arguments": [
                 {
-                  "val": "aqua",
+                  "val": "Cadanganpass123",
                   "offset": 12
                 }
               ],
-              "location": "WonderfulQuoteSteps.userInputOnBackgroundField(String)"
+              "location": "KitadelUserBasicSteps.userInputToPasswordBox(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 385366798,
+              "duration": 402967480,
               "status": "passed"
             },
             "line": 10,
-            "name": "user click on add quote",
+            "name": "user clicked log in",
             "match": {
-              "location": "WonderfulQuoteSteps.userClickOnAddQuote()"
+              "location": "KitadelUserBasicSteps.userClickedLogIn()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 747598564,
+              "duration": 1829238547,
               "status": "passed"
             },
             "line": 11,
-            "name": "user should see \"Quote\" and author \"Argo\" on panel and background color is \"aqua\"",
+            "name": "user clicked skip",
             "match": {
-              "arguments": [
-                {
-                  "val": "Quote",
-                  "offset": 17
-                },
-                {
-                  "val": "Argo",
-                  "offset": 36
-                },
-                {
-                  "val": "aqua",
-                  "offset": 76
-                }
-              ],
-              "location": "WonderfulQuoteSteps.userShouldSeeAndAuthorOnPanelAndBackgroundColorIs(String,String,String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 362430130,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user click table view",
-            "match": {
-              "location": "WonderfulQuoteSteps.userClickTableView()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 331076811,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user hover blue button",
-            "match": {
-              "location": "WonderfulQuoteSteps.userHoverBlueButton()"
+              "location": "KitadelUserBasicSteps.userClickedSkip()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 320156169,
+              "duration": 1772543031,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on homepage",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 431351484,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicked on Marketplace Tab",
+            "match": {
+              "location": "KitadelTradingSteps.userClickedOnMarketplaceTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 327346943,
               "status": "passed"
             },
             "line": 15,
-            "name": "table is visible",
+            "name": "user can see token sales",
             "match": {
-              "location": "WonderfulQuoteSteps.tableIsVisible()"
+              "location": "KitadelTradingSteps.userCanSeeTokenSales()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 314957477,
+              "duration": 322398042,
               "status": "passed"
             },
-            "line": 17,
-            "name": "user hover red button",
+            "line": 16,
+            "name": "user can see exchange coin pairs",
             "match": {
-              "location": "WonderfulQuoteSteps.userHoverRedButton()"
+              "location": "KitadelTradingSteps.userCanSeeExchangeCoinPairs()"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 2303635729,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class\u003d\u0027MakeResponsive-iRTIta FItHU sc-jTzLTM gdBFAz\u0027]//tbody//tr[2] (tried for 5 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat net.serenitybdd.core.pages.RenderedPageObjectView.waitForPresenceOf(RenderedPageObjectView.java:187)\r\n\tat net.serenitybdd.core.pages.PageObject.waitForRenderedElementsToBePresent(PageObject.java:338)\r\n\tat net.serenitybdd.core.pages.PageObject.waitForPresenceOf(PageObject.java:344)\r\n\tat com.gdn.qa.module.ui.training.pages.HomePage.clickBitcoinIdrPair(HomePage.java:40)\r\n\tat com.gdn.qa.module.ui.training.steps.KitadelTradingSteps.userClickedOnBitcoinIdrPair(KitadelTradingSteps.java:62)\r\n\tat ✽.user clicked on bitcoin/idr pair(src/test/resources/features/KitadelTrading.feature:18)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //div[@class\u003d\u0027MakeResponsive-iRTIta FItHU sc-jTzLTM gdBFAz\u0027]//tbody//tr[2]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027THM-PC-029\u0027, ip: \u002710.177.16.211\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)\r\n\tat java.util.Optional.orElseThrow(Optional.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\r\n\tat net.serenitybdd.core.pages.RenderedPageObjectView.waitForPresenceOf(RenderedPageObjectView.java:187)\r\n\tat net.serenitybdd.core.pages.PageObject.waitForRenderedElementsToBePresent(PageObject.java:338)\r\n\tat net.serenitybdd.core.pages.PageObject.waitForPresenceOf(PageObject.java:344)\r\n\tat com.gdn.qa.module.ui.training.pages.HomePage.clickBitcoinIdrPair(HomePage.java:40)\r\n\tat com.gdn.qa.module.ui.training.steps.KitadelTradingSteps.userClickedOnBitcoinIdrPair(KitadelTradingSteps.java:62)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:31)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:25)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)\r\n\tat cucumber.api.TestStep.executeStep(TestStep.java:102)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$WithStepDescriptions.run(PickleRunners.java:95)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)\r\n",
+              "duration": 7425930405,
+              "status": "failed"
             },
             "line": 18,
-            "name": "table is invisible",
+            "name": "user clicked on bitcoin/idr pair",
             "match": {
-              "location": "WonderfulQuoteSteps.tableIsInvisible()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 376790800,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user click green button",
-            "match": {
-              "location": "WonderfulQuoteSteps.userClickGreenButton()"
+              "location": "KitadelTradingSteps.userClickedOnBitcoinIdrPair()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 9745844274,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 21,
-            "name": "table is visible after \"10\" seconds",
+            "line": 19,
+            "name": "user is on bitcoin trading page",
             "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 24
-                }
-              ],
-              "location": "WonderfulQuoteSteps.tableIsVisibleAfterSeconds(Integer)"
+              "location": "KitadelTradingSteps.userIsOnBitcoinTradingPage()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@TrainingFeature"
+            "name": "@KitadelTradingFeature"
           },
           {
-            "name": "@positive"
-          },
-          {
-            "name": "@Regression"
+            "name": "@Positive"
           }
         ]
       }
     ],
-    "name": "For QA Training",
+    "name": "basic trading function check",
     "description": "",
-    "id": "for-qa-training",
+    "id": "basic-trading-function-check",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/Training.feature",
+    "uri": "src/test/resources/features/KitadelTrading.feature",
     "tags": [
       {
-        "name": "@TrainingFeature",
+        "name": "@KitadelTradingFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9109660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User Login Success",
+        "description": "",
+        "id": "to-test-basic-functions;user-login-success",
+        "after": [
+          {
+            "result": {
+              "duration": 17001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11696143334,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on landing page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 647652576,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicked on sign in button",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedOnSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 338743079,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on sign in page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnSignInPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 583465385,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input \"reynaldocadangan+2@gmail.com\" to email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reynaldocadangan+2@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "KitadelUserBasicSteps.userInputToEmailBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 496839414,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input \"Cadanganpass123\" to password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cadanganpass123",
+                  "offset": 12
+                }
+              ],
+              "location": "KitadelUserBasicSteps.userInputToPasswordBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387642824,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicked log in",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedLogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1949803045,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicked skip",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedSkip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 746703086,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is on homepage",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 321517197,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user can see portfolio value",
+            "match": {
+              "location": "KitadelUserBasicSteps.userCanSeePortfolioValue()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KitadelUserFeature"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12446030,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User Login Fail",
+        "description": "",
+        "id": "to-test-basic-functions;user-login-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 225825,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16459851931,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on landing page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 642062448,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicked on sign in button",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedOnSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647340463,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user input \"reynaldocadangan+2@gmail.com\" to email box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reynaldocadangan+2@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "KitadelUserBasicSteps.userInputToEmailBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528601810,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user input \"Cadanganpass123asd\" to password box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cadanganpass123asd",
+                  "offset": 12
+                }
+              ],
+              "location": "KitadelUserBasicSteps.userInputToPasswordBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 393580350,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicked log in",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedLogIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290269642,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is not on homepage",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsNotOnHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KitadelUserFeature"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23441520,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User Login Forget Password",
+        "description": "",
+        "id": "to-test-basic-functions;user-login-forget-password",
+        "after": [
+          {
+            "result": {
+              "duration": 148198,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18561893336,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is on landing page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 653204532,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicked on sign in button",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedOnSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 464046371,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicked on forget password",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedOnForgetPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 411768876,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on forget password page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnForgetPasswordPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 595132897,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user type \"reynaldocadangan+2@gmail.com\" on forget email input",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reynaldocadangan+2@gmail.com",
+                  "offset": 11
+                }
+              ],
+              "location": "KitadelUserBasicSteps.userTypeEmailOnForgetEmailInput(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 394739307,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user click on send instructions",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickOnSendInstructions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319722145,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user can see instruction is sent",
+            "match": {
+              "location": "KitadelUserBasicSteps.userCanSeeInstructionIsSent()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KitadelUserFeature"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20623200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "User Sign Up with correct credentials",
+        "description": "",
+        "id": "to-test-basic-functions;user-sign-up-with-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 17001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10418292456,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user is on landing page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 630506246,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user clicked on sign up button",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedOnSignUpButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1038123344,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user should be on sign up page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userShouldBeOnSignUpPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KitadelUserFeature"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9173814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeRun()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "User Sign In from Sign up page",
+        "description": "",
+        "id": "to-test-basic-functions;user-sign-in-from-sign-up-page",
+        "after": [
+          {
+            "result": {
+              "duration": 30794,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25695825127,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user is on landing page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 655034868,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user clicked on sign up button",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedOnSignUpButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1529624758,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user clicked on log into your account button",
+            "match": {
+              "location": "KitadelUserBasicSteps.userClickedOnLogIntoYourAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1022021133,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user is on sign in page",
+            "match": {
+              "location": "KitadelUserBasicSteps.userIsOnSignInPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@KitadelUserFeature"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "to test basic functions",
+    "description": "",
+    "id": "to-test-basic-functions",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/KitadelUser.feature",
+    "tags": [
+      {
+        "name": "@KitadelUserFeature",
         "type": "Tag",
         "location": {
           "line": 1,

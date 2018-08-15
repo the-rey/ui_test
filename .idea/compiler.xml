@@ -9,5 +9,8 @@
         <module name="ui-training" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ui-training" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
